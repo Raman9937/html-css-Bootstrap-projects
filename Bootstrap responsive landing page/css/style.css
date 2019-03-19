@@ -1,0 +1,202 @@
+.navbar-nav .nav-item .nav-link {
+ color: white;  
+}
+.bgimg{
+    background-image: url("/images/image3.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+.nav-item:hover{
+    background-color: black;
+    color: white;
+       
+}
+.head{
+    padding-top: 250px;
+    box-sizing: border-box;
+
+}
+.head h1{
+    font-size: 80px;
+}
+.head h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+/*Section-1*/
+.section-1{
+    padding-top: 80px;
+    padding-bottom: 50px;
+   
+}
+.section-1 h1{
+    font-size: 50px;
+}
+.section-1 .services-para{
+    font-size: 20px;
+}
+.rowsetting{
+    margin-top: 60px;
+}
+.imgsetting{
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color:#ffc107;
+}
+.fa-shopping-cart{
+    margin-top: 21px;
+    color: white;
+}
+.fa-desktop{
+    margin-top: 21px;
+    color: white;
+}
+.fa-lock{
+    margin-top: 21px;
+    color: white;
+
+}
+
+.rowsetting .para-1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px 0px;
+}
+.rowsetting h2{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+/* PORTFOLIO */
+
+.portfolio{
+    height: auto;
+    width: 100%;
+}
+.portfolio .h{
+font-size: 50px;
+}
+.portfolio .p{
+    font-size: 20px;
+}
+
+
+.card{
+    margin-top: 40px;
+}
+.card-title {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+
+/* Our Team*/
+.our-team{
+    margin-top: 80px;
+}
+.our-team .row{
+    margin-top: 50px;
+}
+
+.img img{
+    border-radius: 50%;
+    height: 250px;
+    width: 280px;
+}
+
+
+
+
+
+/* Responsive */
+
+@media only screen and (min-width: 992px) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    
+}
+
+@media only screen and (max-width: 490px) {
+
+
+    /* header */
+    .bgimg{
+        background-image: url("/images/image3.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        width: 100%;
+        height: 460px;
+    }
+    .head{
+        padding-top: 150px;
+        box-sizing: border-box;
+    
+    }
+    .head h1{
+        font-size: 40px;
+    }
+    .head h2{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+      /* section-1 */
+      .section-1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        
+       
+    }
+    .section-1 h1{
+        margin-right: 2px;
+        font-size: 40px;
+    }
+    .section-1 .services-para{
+        font-size: 20px;
+    }
+    .rowsetting{
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+    
+          /* portfolio*/
+
+          .portfolio .h{
+            font-size: 40px;
+            }
+            .portfolio .p{
+                font-size: 20px;
+            }
+            .row{
+                margin-left: 50px;
+            }
+    /* our team*/
+    .our-team .row{
+        margin-right: 34px;
+    }
+    .our-team h1{
+        font-size: 40px;
+    }
+    
+}
+
+
