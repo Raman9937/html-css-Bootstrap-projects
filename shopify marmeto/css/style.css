@@ -1,0 +1,18 @@
+body {
+    overflow-x: hidden;
+}
+
+
+@media (max-width:767px) {
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
+    
+}
+
+
+
+
+
+ 

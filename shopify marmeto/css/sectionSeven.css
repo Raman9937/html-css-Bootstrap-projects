@@ -1,0 +1,153 @@
+
+
+/* sectionSeven */
+.sectionSeven {
+    margin-top: 100px;
+    position: relative;
+    background-color: #000000;
+    height: 100vh;
+  }
+  
+  .sectionSeven .wrapper {
+    position: absolute;
+    max-width: 700px;
+    text-align: center;
+    margin-top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+  .sectionSeven .wrapper h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+  }
+  .sectionSeven .wrapper button {
+    margin-top: 45px;
+    background-color: #223CFF;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sectionSeven .wrapper button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+
+  /* footer */
+
+  .sectionSeven .footer {
+    top: 90%;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  .footer p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+  .footer .img {
+    display: flex;
+    padding-left: 120px;
+  }
+  .footer .img a {
+    padding-right: 10px;
+  }
+  .footer .logo {
+    text-align: right;
+    padding-right: 120px;
+  }
+  .sectionSeven .footer img {
+    height: 24px;
+    width: 25px;
+  }
+  .sectionSeven .footer .logo-bottom {
+    height: 35px;
+    width: 57px;
+  }
+
+
+  /* media queries */
+
+/* For i-pad and i-pad pro */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .sectionSeven{
+    height: auto;
+    margin-top: 30px;
+  }
+  .sectionSeven .wrapper {
+    position: unset;
+    max-width: 100%;
+    margin: 0 auto;
+    transform: unset;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sectionSeven .wrapper h1 {
+    font-size: 45px;
+  }
+  .sectionSeven .footer {
+    top: 90%;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: unset;
+  }
+}
+
+/* For mobile */
+@media (max-width:767px) {
+  .sectionSeven{
+    height: auto;
+    margin-top: 20px;
+  }
+  .sectionSeven .wrapper {
+    position: unset;
+    max-width: 100%;
+    margin: 0 auto;
+    transform: unset;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .sectionSeven .wrapper h1 {
+    font-size: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sectionSeven .footer {
+    top: 90%;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: unset;
+  }
+  .sectionSeven .wrapper button { 
+    font-size: 12px;
+  }
+
+  /* footer */
+  .footer .img {
+    display: none;
+    /* padding: 0;
+    display: flex;
+    justify-content: center; */
+  }
+  .footer .logo {
+    display: none;
+    /* padding: 0;
+    text-align: center; */
+  }
+}

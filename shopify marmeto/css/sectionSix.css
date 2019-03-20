@@ -1,0 +1,69 @@
+
+/* sectionSix */
+.sectionSix {
+    margin-top: 150px;
+}
+
+.sectionSix .heading {
+  text-transform: uppercase;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 39px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.reviews {
+  width: 100%;
+  outline: none;
+  text-align: center;
+}
+.reviews img {
+  display: unset !important;
+  width: 114px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.reviews h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+}
+
+.reviews p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* media queries */
+/* For ipad */
+@media (min-width:768px) and (max-width:1024px) {
+  .sectionSix {
+    height: auto;
+    margin-top: 40px;
+  }
+  .sectionSix .heading{
+    font-size: 41px;
+  }
+}
+
+/* For mobile */
+@media (max-width:767px) {
+  .sectionSix {
+    height: auto;
+    margin-top: 40px;
+  }
+  .sectionSix .heading {
+    font-size: 27px;
+  }
+  .reviews h2 {
+    font-size: 22px
+  }
+  
+}

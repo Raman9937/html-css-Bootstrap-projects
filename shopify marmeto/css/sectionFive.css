@@ -1,0 +1,95 @@
+
+/* sectionFive */
+.sectionFive {
+    height: 100vh;
+    padding: 0;
+}
+.sectionFive .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.sectionFive .col-7 { 
+  padding: 0;
+}
+.sectionFive .col-7 img {
+    padding-left: 120px;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sectionFive .col-5 {
+    position: relative;
+    padding: 0;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url("../images/Shopify.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sectionFive .col-5 h2 {
+    text-transform: uppercase;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 800;
+    position: absolute;
+    top: 25%;
+    padding-left: 50px;
+    padding-right: 45px;
+    /* margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 50px; */
+    text-align: left;
+}
+
+
+/* media queries */
+
+/* For i-pad and i-pad pro */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .sectionFive .col-7 img {
+        padding-left: 0;
+    }
+    .sectionFive .col-5 h2 {
+        position: absolute;
+        top: 30%;
+        padding-left: 18px;
+        font-size: 49px;
+    
+    }
+}
+
+/* For mobile */
+@media (max-width:767px) {
+
+.sectionFive {
+    height: auto;
+}
+.sectionFive .col-7 {
+    height: 50vh;
+}
+.sectionFive .col-5 {
+    height: auto;
+}
+.sectionFive .col-7 img {
+    height: 100%;
+    padding: 0;
+}
+.sectionFive .col-5 h2 {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    position: unset;
+    font-size: 27px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+    /* margin-top: 50px; */
+    /* margin-left: 57px; */
+
+}
+
+}

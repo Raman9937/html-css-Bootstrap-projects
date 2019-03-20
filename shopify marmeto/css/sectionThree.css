@@ -1,0 +1,470 @@
+
+/* sectionThree */
+
+.sectionThree {
+    background-image: url("../images/Image 4@2x.png"); 
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    background-color: #000000;
+    height: 100vh;
+    position: relative;
+}
+.sectionThree .mobile {
+  display: none;
+
+}
+
+/* For desktop */
+
+
+.sectionThree h2 {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 46px;
+  font-weight: 800;
+  color: #FFFFFF;
+  top: 50%;
+  left: 28%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+
+
+  /* padding-top: 35vh; */
+    
+}
+
+.sectionThree .desktop .p1 {
+  position: absolute;
+  left: 20%;
+  top: 12%;
+  color: #767676;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.sectionThree .desktop .p1:after {
+  content: ' \25CF';
+  font-size: 25px;
+  color: white;
+  padding-left: 6px;
+}
+
+.sectionThree .desktop .p2 {
+  position: absolute;
+  left: 27%;
+  top: 28%;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .desktop .p2:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color: #FF2288;
+  padding-right: 6px;
+}
+.sectionThree .desktop .p3 {
+  position: absolute;
+  right: 29%;
+  top: 15%;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .desktop .p3:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color: #22FF6F;
+  padding-right: 6px;
+}
+.sectionThree .desktop .p4 {
+  position: absolute;
+  right: 16%;
+  top: 25%;
+  color: #767676;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .desktop .p4:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FFFFFF ;
+  padding-right: 6px;
+}
+.sectionThree .desktop .p5 {
+  position: absolute;
+  left: 27%;
+  bottom: 25%;
+  color: #767676;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .desktop .p5:after {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FFFFFF ;
+  padding-left: 6px;
+  
+}
+.sectionThree .desktop .p6 {
+  position: absolute;
+  right: 29%;
+  bottom: 25%;
+  color: #767676;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .desktop .p6:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FFFFFF ;
+  padding-right: 6px;
+}
+.sectionThree .desktop .p7 {
+  position: absolute;
+  left: 24%;
+  bottom: 13%;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .desktop .p7:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#223CFF ;
+  padding-right: 6px;
+}
+.sectionThree .desktop .p8 {
+  position: absolute;
+  right: 20%;
+  bottom: 13%;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .desktop .p8:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FF7722 ;
+  padding-right: 6px;
+}
+
+
+.sectionThree .randomText{
+    /* height: 100vh;
+     width: 100vw;  */
+      /* position: absolute;
+    margin-left: 25vw;
+    margin-top: 70px;
+    margin-bottom: 70px;  */
+}
+ .sectionThree ul  {
+  list-style: none;
+} 
+/*  */
+
+/* .sectionThree .h2 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+} */
+/* End of sectionThree */
+
+
+/* media queries */
+
+
+/* For I-pad and I-pad Pro */
+
+@media (min-width:768px) and (max-width:1024px){
+ 
+  .sectionThree {
+    height: auto
+  }
+
+  .sectionThree h2 {
+   text-align: center;
+   margin: 0 auto;
+   font-family: 'IBM Plex Mono', monospace;
+   font-size: 49px;
+   font-weight: 800;
+   color: #FFFFFF;
+   position: unset;
+   padding-top: 80px;
+   transform: unset;
+     
+}
+.sectionThree .desktop {
+ display: none;
+}
+.sectionThree .mobile {
+ display: block;
+ padding-top: 57px;
+ padding-left: 150px;
+ padding-bottom: 30px;
+
+}
+.sectionThree .mobile li {
+  padding-bottom: 20px;
+}
+
+
+.sectionThree .mobile .p1 {
+  color: #767676;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.sectionThree .mobile .p1:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color: white;
+  padding-right: 6px;
+}
+
+.sectionThree .mobile .p2 {
+
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p2:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color: #FF2288;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p3 {
+
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p3:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color: #22FF6F;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p4 {
+ 
+  color: #767676;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p4:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FFFFFF ;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p5 {
+  color: #767676;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p5:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FFFFFF ;
+  padding-right: 6px;
+  
+}
+.sectionThree .mobile .p6 {
+  color: #767676;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p6:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FFFFFF ;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p7 {
+ 
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p7:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#223CFF ;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p8 {
+
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p8:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FF7722 ;
+  padding-right: 6px;
+}
+
+}
+
+
+
+/* For mobile */
+@media (max-width:767px) {
+
+  .sectionThree {
+    height: auto;
+  }
+  .sectionThree h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 27px;
+    font-weight: 800;
+    color: #FFFFFF;
+    position: unset;
+    padding-top: 40px;
+    transform: unset;
+      
+}
+.sectionThree .desktop {
+  display: none;
+}
+.sectionThree .mobile {
+  display: block;
+  padding-top: 37px;
+  padding-bottom: 30px;
+}
+
+
+.sectionThree .mobile .p1 {
+  color: #767676;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.sectionThree .mobile .p1:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color: white;
+  padding-right: 6px;
+}
+
+.sectionThree .mobile .p2 {
+
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p2:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color: #FF2288;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p3 {
+
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p3:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color: #22FF6F;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p4 {
+ 
+  color: #767676;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p4:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FFFFFF ;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p5 {
+
+  color: #767676;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p5:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FFFFFF ;
+  padding-right: 6px;
+  
+}
+.sectionThree .mobile .p6 {
+
+  color: #767676;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p6:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FFFFFF ;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p7 {
+ 
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p7:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#223CFF ;
+  padding-right: 6px;
+}
+.sectionThree .mobile .p8 {
+
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionThree .mobile .p8:before {
+  content: ' \25CF';
+  font-size: 25px;
+  color:#FF7722 ;
+  padding-right: 6px;
+}
+
+
+  
+/* 
+.sectionThree ul  {
+padding: 0;
+} */
+.sectionThree .p1 {
+ padding: 0;
+}
+.sectionThree .p2 {
+ padding: 0;
+}
+}
+
+
+
+
+
+
